@@ -49,8 +49,8 @@ volumes:
   postgres:
 
 networks:
-  traefik_proxy:
+  traefik:
     name: "traefik"
     external: true
-  nocodb_app:
+  nocodb-app:
     name: "nocodb-app"
